@@ -53,16 +53,16 @@ do
         movaDireita(casas);
         break;
     case 2:
-        printf("Quantas casas voce quer andar? \n");
+        printf("Quantas casas voce quer andar? \n"); 
         scanf("%d", &casas);
         printf("Bispo: Move-se! \n");   /// MOVIMENTACAO DO BISPO
         movaDiagonal(casas);
         break;
     case 3:
-        printf("Quantas casas voce quer andar? \n");
+        printf("Quantas casas voce quer andar? \n"); /// quantas casas voce quer andar
         scanf("%d", &casas);
         printf("Rainha: Move-se! \n");
-        movaEsquerda(casas);
+        movaEsquerda(casas);  /// movimentacaso das casas 
         break; 
     case 4:
         printf("Cavalo: Move-se! \n");  /// MOVIMENTACAO DO CAVALO 
@@ -98,7 +98,7 @@ do
                     break;
 
                 default:
-                    printf("Opcao Invalida! \n");
+                    printf("Opcao Invalida! \n");  /// caso nao selecionar a opcao invalida do cavalo
                     break;
                 }
 
@@ -106,12 +106,12 @@ do
                 break; 
     
     case 5:
-    printf("Obrigado por Participar! \n");
+    printf("Obrigado por Participar! \n");   /// opcao sace 5 para saida do codigo 
     printf("Saindo ..... \n");
     break; 
     default:
 
-    printf("Opcao Invalida \n");
+    printf("Opcao Invalida \n");  /// opcao invalida do menu interativo
         break;
     }
 } while (opcaoMenu != 5);
