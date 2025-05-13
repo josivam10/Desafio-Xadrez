@@ -10,7 +10,7 @@ void movaEsquerda(int i){
     if (i > 0)
     {
         printf("Esquerda - \n");
-        movaDireita(i - 1);
+        movaEsquerda(i - 1);
     }
 }
 void movaDiagonal(int i){
